@@ -1,12 +1,13 @@
-import { GridItemInterface } from "@/config/site-config";
-import { Star } from "lucide-react";
-import Link from "next/link";
-import Icon from "../icon";
+import { GridItemInterface } from '@/config/site-config';
+import { Star } from 'lucide-react';
+import Link from 'next/link';
+import Icon from '../icon';
 
 const Project = ({ item }: { item: GridItemInterface }) => {
   return (
     <Link
-      href={item.buttonLink ?? ""}
+      href={item.buttonLink ?? ''}
+      target="_blank"
       className="flex items-center justify-between gap-4"
     >
       {item.icon && <Icon type={item.icon} color={item.color} />}

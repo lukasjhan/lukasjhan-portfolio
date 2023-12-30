@@ -1,17 +1,17 @@
-import Link from "next/link";
-import Button from "../button";
-import Icon from "../icon";
-import { GridItemInterface } from "./../../config/site-config";
+import Link from 'next/link';
+import Button from '../button';
+import Icon from '../icon';
+import { GridItemInterface } from './../../config/site-config';
 
 const Social = ({ item }: { item: GridItemInterface }) => {
   return (
-    <Link href={item.buttonLink ?? ""}>
+    <Link href={item.buttonLink ?? ''} target="_blank">
       {/* Header */}
       <div className="flex items-center justify-between">
-        {item.icon && <Icon type={item.icon} color={item.color ?? "#fff"} />}
-        {item.layout === "2x2" && (
+        {item.icon && <Icon type={item.icon} color={item.color ?? '#fff'} />}
+        {item.button !== false && item.layout === '2x2' && (
           <Button
-            text={item.buttonTitle ?? ""}
+            text={item.buttonTitle ?? ''}
             secondaryText={item.buttonSecondaryText}
             color={item.color}
           />
@@ -29,10 +29,10 @@ const Social = ({ item }: { item: GridItemInterface }) => {
           </div>
         )}
 
-        {item.layout === "1x2" && (
+        {item.button !== false && item.layout === '1x2' && (
           <div className="mt-2">
             <Button
-              text={item.buttonTitle ?? ""}
+              text={item.buttonTitle ?? ''}
               secondaryText={item.buttonSecondaryText}
               color={item.color}
             />

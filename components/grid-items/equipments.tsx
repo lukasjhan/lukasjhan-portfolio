@@ -1,6 +1,6 @@
-import { GridItemInterface } from "@/config/site-config";
-import Image from "next/image";
-import Link from "next/link";
+import { GridItemInterface } from '@/config/site-config';
+import Image from 'next/image';
+import Link from 'next/link';
 
 const Equipments = ({ item }: { item: GridItemInterface }) => {
   return (
@@ -9,8 +9,8 @@ const Equipments = ({ item }: { item: GridItemInterface }) => {
       <div className="absolute inset-0 z-10 bg-gradient-to-b from-transparent via-neutral-950/60 to-neutral-950/90" />
       {/* Image */}
       <Image
-        className="z-0 object-cover object-center w-full h-full"
-        src={item.image ?? ""}
+        className="z-0 object-cover object-bottom w-full h-full"
+        src={item.image ?? ''}
         alt="equipments"
         fill
       />
@@ -24,6 +24,7 @@ const Equipments = ({ item }: { item: GridItemInterface }) => {
                 className="px-2 py-1 text-sm font-medium bg-white rounded-lg dark:bg-neutral-900"
                 key={equipment.link + index}
                 href={equipment.link}
+                target="_blank"
               >
                 {equipment.title}
               </Link>
