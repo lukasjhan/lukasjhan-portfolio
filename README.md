@@ -1,4 +1,10 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Personal Portfolio Website
+
+You can find original repo [here](https://github.com/batuhanbilginn/nextjs-portfolio-bento-style). Thanks to [makrdev](https://www.youtube.com/@makrdev) for this super awesome template.
+
+This is my personal portfolio website. It is built with Next.js and TypeScript. It is deployed on Vercel.
+
+bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
 
