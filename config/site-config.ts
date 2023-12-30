@@ -116,6 +116,10 @@ const GridItems: GridItemInterface[] = [
         title: 'Redis',
         link: 'https://github.com/lukasjhan',
       },
+      {
+        title: 'Cyber Security',
+        link: 'https://github.com/lukasjhan',
+      },
     ],
   },
   {
@@ -133,31 +137,34 @@ const GridItems: GridItemInterface[] = [
   {
     layout: '1x2',
     type: 'project',
-    title: 'makrAI',
+    title: 'SD JWT JS',
     icon: 'github',
     color: '#070707',
     button: false,
+    buttonLink: 'https://github.com/lukasjhan',
+    description: 'Typescript implementation of Selective Disclosure JWT.',
   },
   {
     layout: '2x2',
-    type: 'social',
-    title: 'Full-stack Multilingual Blog with Next.js 13',
-    username: '@batuhanbilginn',
-    description:
-      'Learn how to build a full-stack, multilingual and high performant blog website with Next.js 13.4 and Directus.',
-    icon: 'udemy',
-    buttonTitle: 'Enroll',
-    buttonSecondaryText: '%90 OFF',
+    type: 'project',
+    title:
+      'Startup Success: The Essential Traits of an Outstanding Software Engineer',
+    icon: 'blog',
+    color: '#070707',
+    button: false,
     buttonLink:
-      'https://www.udemy.com/course/nextjs13-fullstack-blog-seo-internationalization/?couponCode=MAKRDEVFELLOWS2',
+      'https://inblog.ai/lukasjhan/startup-success-the-essential-traits-of-an-outstanding-software-engineer-6176',
+    description: 'Lesson learned from 3 years my startup journey.',
   },
   {
     layout: '1x2',
     type: 'project',
-    title: 'AI Blog Post Generator',
+    title: 'DID (Kor)',
     icon: 'github',
     color: '#070707',
     button: false,
+    buttonLink: 'https://lukasjhan.github.io/did-core/',
+    description: 'DID standard translation for Korean.',
   },
   {
     layout: '2x4',
@@ -173,7 +180,96 @@ const GridItems: GridItemInterface[] = [
         title: 'RAZER BASILISK V3 PRO',
         link: 'https://github.com/lukasjhan',
       },
+      {
+        title: '49 inch 32:9 DQHD monitor',
+        link: 'https://github.com/lukasjhan',
+      },
     ],
+  },
+  {
+    layout: '2x2',
+    type: 'project',
+    title: 'Building Standard Opensource Libraries: Key Considerations',
+    icon: 'blog',
+    color: '#070707',
+    button: false,
+    buttonLink:
+      'https://inblog.ai/lukasjhan/building-standard-opensource-libraries-key-considerations-7929',
+    description:
+      'Based on learning from implementing the core of SD JWT standard.',
+  },
+  {
+    layout: '1x2',
+    type: 'project',
+    title: 'Serverless AWS Middleware',
+    icon: 'github',
+    color: '#070707',
+    button: false,
+    buttonLink: 'https://github.com/lukasjhan/serverless-aws-middleware',
+    description:
+      'Serverless AWS Middleware is a middleware plugin for serverless backend.',
+  },
+  {
+    layout: '1x2',
+    type: 'project',
+    title: 'Serverless AWS Infra',
+    icon: 'github',
+    color: '#070707',
+    button: false,
+    buttonLink: 'https://github.com/lukasjhan/serverless-aws-infra',
+    description:
+      'Serverless AWS Infra is a deployment plugin for serverless backend.',
+  },
+  {
+    layout: '2x2',
+    type: 'project',
+    title:
+      'Observability in Critical Global Backend: Ensuring Reliability and Performance',
+    icon: 'blog',
+    color: '#070707',
+    button: false,
+    buttonLink:
+      'https://inblog.ai/lukasjhan/observability-in-critical-global-backend-ensuring-reliability-and-performance-4245',
+    description:
+      'Based on experience operating a global high-availability authentication server.',
+  },
+  {
+    layout: '2x4',
+    type: 'equipment',
+    title: 'Favorite Conferences',
+    image: '/city.jpg',
+    equipments: [
+      {
+        title: 'RSA Conference',
+        link: 'https://github.com/lukasjhan',
+      },
+      {
+        title: 'AWS re:Invent',
+        link: 'https://github.com/lukasjhan',
+      },
+      {
+        title: 'Github Universe',
+        link: 'https://github.com/lukasjhan',
+      },
+    ],
+  },
+  {
+    layout: '1x2',
+    type: 'project',
+    title: 'Cyber Security Program (BoB): Top 10',
+    icon: 'blog',
+    color: '#070707',
+    button: false,
+    description: 'prize: $10,000',
+  },
+  {
+    layout: '1x2',
+    type: 'project',
+    title: 'Contributing Open Wallet Foundation',
+    icon: 'blog',
+    color: '#070707',
+    button: false,
+    description: 'serveral open source projects for EUDI',
   },
 ];
 
