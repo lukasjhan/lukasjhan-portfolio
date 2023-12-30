@@ -14,7 +14,7 @@ const Project = ({ item }: { item: GridItemInterface }) => {
       <div className="w-full @lg:text-lg  font-semibold">{item.title}</div>
       <div className="flex items-center gap-1">
         <div className="mt-[1px]">{item.stars}</div>
-        <Star fill="currentColor" size={16} />
+        {item.button !== false && <Star fill="currentColor" size={16} />}
       </div>
     </Link>
   );

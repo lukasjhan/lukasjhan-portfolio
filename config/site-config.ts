@@ -131,33 +131,12 @@ const GridItems: GridItemInterface[] = [
     color: '#070707',
   },
   {
-    layout: '2x1',
-    type: 'mentor',
-    title: 'Next.js Mentorship',
-    icon: 'superpeer',
-    promotion: 'MAKRDEVFELLOWS',
-    oldPrice: '$100',
-    price: '$50',
-    buttonLink: 'https://superpeer.com/makrdev/-/nextjs-mentor',
-  },
-  {
-    layout: '2x1',
-    type: 'mentor',
-    title: 'Supabase Mentorship',
-    icon: 'superpeer',
-    promotion: 'MAKRDEVFELLOWS',
-    oldPrice: '$100',
-    price: '$50',
-    buttonLink: 'https://superpeer.com/makrdev/-/supabase-mentor',
-  },
-  {
-    layout: '2x1',
+    layout: '1x2',
     type: 'project',
     title: 'makrAI',
     icon: 'github',
     color: '#070707',
-    buttonLink: 'https://github.com/batuhanbilginn/makr-ai',
-    stars: 73,
+    button: false,
   },
   {
     layout: '2x2',
@@ -173,13 +152,28 @@ const GridItems: GridItemInterface[] = [
       'https://www.udemy.com/course/nextjs13-fullstack-blog-seo-internationalization/?couponCode=MAKRDEVFELLOWS2',
   },
   {
-    layout: '2x1',
+    layout: '1x2',
     type: 'project',
     title: 'AI Blog Post Generator',
     icon: 'github',
-    stars: 19,
     color: '#070707',
-    buttonLink: 'https://github.com/batuhanbilginn/ai-blog-post-generator',
+    button: false,
+  },
+  {
+    layout: '2x4',
+    type: 'equipment',
+    title: 'Gears',
+    image: '/gears.jpg',
+    equipments: [
+      {
+        title: 'Happy Hacking Keyboard',
+        link: 'https://github.com/lukasjhan',
+      },
+      {
+        title: 'RAZER BASILISK V3 PRO',
+        link: 'https://github.com/lukasjhan',
+      },
+    ],
   },
 ];
 
