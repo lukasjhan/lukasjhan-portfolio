@@ -1,8 +1,8 @@
-"use client";
-import { siteConfig } from "@/config/site-config";
-import { Mail, MapPin } from "lucide-react";
-import Image from "next/image";
-import Footer from "./footer";
+'use client';
+import { siteConfig } from '@/config/site-config';
+import { Mail, MapPin } from 'lucide-react';
+import Image from 'next/image';
+import Footer from './footer';
 
 const LeftPanel = () => {
   return (
@@ -18,10 +18,10 @@ const LeftPanel = () => {
             loading="eager"
             alt="avatar"
             placeholder="blur"
-            src="/pp-new3.png"
+            src="/lukas.png"
             width={120}
             height={120}
-            blurDataURL="/pp-new3.png"
+            blurDataURL="/lukas.png"
           />
         </div>
 
