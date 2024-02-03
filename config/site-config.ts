@@ -47,7 +47,7 @@ const GridItems: GridItemInterface[] = [
     icon: 'blog',
     username: '@lukasjhan',
     button: false,
-    buttonLink: 'https://inblog.ai/lukasjhan',
+    buttonLink: 'https://vertex.beehiiv.com/',
     color: '#403ae0',
   },
   {
@@ -153,7 +153,7 @@ const GridItems: GridItemInterface[] = [
     color: '#070707',
     button: false,
     buttonLink:
-      'https://inblog.ai/lukasjhan/startup-success-the-essential-traits-of-an-outstanding-software-engineer-6176',
+      'https://vertex.beehiiv.com/p/startup-success-essential-traits-outstanding-software-engineer',
     description: 'Lesson learned from 3 years my startup journey.',
   },
   {
@@ -194,7 +194,7 @@ const GridItems: GridItemInterface[] = [
     color: '#070707',
     button: false,
     buttonLink:
-      'https://inblog.ai/lukasjhan/building-standard-opensource-libraries-key-considerations-7929',
+      'https://vertex.beehiiv.com/p/building-standard-opensource-libraries-key-considerations',
     description:
       'Based on learning from implementing the core of SD JWT standard.',
   },
@@ -259,7 +259,7 @@ const GridItems: GridItemInterface[] = [
     color: '#070707',
     button: false,
     buttonLink:
-      'https://inblog.ai/lukasjhan/observability-in-critical-global-backend-ensuring-reliability-and-performance-4245',
+      'https://vertex.beehiiv.com/p/observability-critical-global-backend-ensuring-reliability-performance',
     description:
       'Based on experience operating a global high-availability authentication server.',
   },
